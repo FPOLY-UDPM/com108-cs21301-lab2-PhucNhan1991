@@ -11,8 +11,20 @@
 
 int main(){
     int so1, so2;
+    printf("Nhập 2 số 1:");
+    scanf("%d",&so1);
 
-    printf("Chương trình tính tích và thương của 2 số\n");
+    printf("Nhập 2 số 2:");
+    scanf("%d",&so2);
+
+    int tich=1;
+    float thuong;
+
+    tich = so1 * so2;
+    thuong = so1 /so2;
+    printf(" tích của 2 số=%d\n",tich);
+    printf("Thương của 2 số =%.2f8 ",thuong);
+
 
 
     return 0;
